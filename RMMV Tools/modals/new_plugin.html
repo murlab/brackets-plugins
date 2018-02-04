@@ -1,0 +1,56 @@
+<div id='rmmv_tools_modal_new' class='template modal'>
+	<div class='modal-header'>
+		<button type='button' class='close' data-dismiss='modal'><span aria-hidden='true'>&times;</span></button>
+		<h1 class='dialog-title'>{{TITLE_H1}} — {{CREATE_NEW_PLUGIN}}</h1>
+	</div>
+	<div class='modal-body'>
+		<p>
+			<div style='width: 120px; float: left;'>{{PLUGIN_NAME}}:</div><input id='rmmv_tools_inputName' style='width: 445px;' placeholder="{{PLUGIN_NAME_DIS}}"></input>
+		</p>
+		<p>
+			<div style='width: 120px; float: left;'>{{USE_LICENSE}}:</div><select id='rmmv_tools_license' style='width: 450px; margin: 0;'>
+				<option value=''>{{NONE}}</option>
+				<option value='Apache License 2.0'>Apache License 2.0</option>
+				<option value='GNU General Public License v3.0'>GNU General Public License v3.0</option>
+				<option value='MIT License'>MIT License</option>
+				<option value='BSD 2-Clause "Simplified" License'>BSD 2-Clause "Simplified" License</option>
+				<option value='BSD 3-Clause "New" or "Revised" License'>BSD 3-Clause "New" or "Revised" License</option>
+				<option value='Eclipse Public License 2.0'>Eclipse Public License 2.0</option>
+				<option value='GNU Affero General Public License v3.0'>GNU Affero General Public License v3.0</option>
+				<option value='GNU General Public License v2.0'>GNU General Public License v2.0</option>
+				<option value='GNU Lesser General Public License v2.1'>GNU Lesser General Public License v2.1</option>
+				<option value='GNU Lesser General Public License v3.0'>GNU Lesser General Public License v3.0</option>
+				<option value='Mozilla Public License 2.0'>Mozilla Public License 2.0</option>
+				<option value='The Unlicense'>The Unlicense</option>
+			</select>
+		</p>
+		<p>
+			<span>{{FREE_FOR_USE}}:</span>
+		</p>
+		<p>
+			<label style='padding-left: 30px;'><input type='radio' name='rmmv_tools_free_use' value=''>{{NO}}</label>
+			<label style='padding-left: 30px;'><input type='radio' name='rmmv_tools_free_use' value='Free for use only free RPG Maker games'>{{ONLY_FREE}}</label>
+			<label style='padding-left: 30px;'><input type='radio' name='rmmv_tools_free_use' value='Free for use only commercial RPG Maker games'>{{ONLY_COMMERCIAL}}</label>
+			<label style='padding-left: 30px;'><input type='radio' name='rmmv_tools_free_use' value='Free for use with both free and commercial RPG Maker games'>{{BOTH}}</label>
+		</p>
+		<p>
+			<span>{{PLUGIN_HELP}}:</span>
+		</p>
+		<p>
+			<textarea id="rmmv_tools_help" placeholder="{{PLUGIN_HELP_DIS}}" style="width: 555px; height: 100px; margin: 0;"></textarea>
+		</p>
+		<p>
+			<div style='width: 120px; float: left;'>{{PLUGIN_LANG}}:</div>
+			<label style='float: left; padding-right: 10px;'><input type='radio' name='rmmv_tools_lang_type' value='together'>{{TOGETHER}}</label>
+			<label style='float: left; padding-right: 10px;'><input type='radio' name='rmmv_tools_lang_type' value='independent'>{{INDEPENDENT}}</label>
+		</p>
+		<p style="clear: both;" id='rmmv_tools_inputLangs'>
+			<label style="float: left; padding-left: 30px; padding-right: 10px;"><input type="checkbox" id="rmmv_tools_inputLang_en" checked="checked">{{EN}}</label>
+			<label style="float: left; padding-right: 10px;"><input type="checkbox" id="rmmv_tools_inputLang_ru" checked="checked">{{RU}}</label>
+		</p>
+	</div>
+	<div class='modal-footer'>
+		<a id='rmmv_tools_btnCancel' href='#' class='dialog-button btn btn-danger' data-dismiss='modal'>{{BUTTON_CANCEL}}</a>
+		<a id='rmmv_tools_btnOk' href='#' class='dialog-button btn btn-danger' data-dismiss='modal' disabled='disabled'>{{BUTTON_OK}}</a>
+	</div>
+</div>
