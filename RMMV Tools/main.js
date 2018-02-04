@@ -80,7 +80,6 @@ define(function (require, exports, module) {
 		docContent = docContent.replace (/%LICENSE%/g, pLicense);
 		docContent = docContent.replace (/%FREE%/g, pFree);
 		docContent = docContent.replace (/%HELP%/g, pHelp);
-		docContent = docContent.replace (/%FILENAME%/g, filename);
 		docContent = docContent.replace (/%PLUGIN_PARAMS%/g, pParams);
 		docContent = docContent.replace (/%YEAR%/g, (new Date).getFullYear());
 

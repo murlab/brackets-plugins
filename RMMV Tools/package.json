@@ -3,10 +3,11 @@
 	"title": "RMMV Tools",
 	"description": "RPG Maker MV Toos",
 	"homepage": "https://github.com/murlab/brackets-plugins/tree/master/RMMV%20Tools",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "MUR",
 	"i18n": [
-		"en"
+		"en",
+		"ru"
 	],
 	"engines": {
 		"brackets": ">=1.0.0"

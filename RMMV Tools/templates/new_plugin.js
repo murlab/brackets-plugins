@@ -8,7 +8,7 @@
 %PLUGIN_PARAMS%
 
 (function() {
-    var params = PluginManager.parameters('%FILENAME%');
+    var params = PluginManager.parameters('%AUTHOR%_%PLUGIN_NAME%');
     var param = params["param"];
 
 })();
